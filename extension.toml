@@ -1,0 +1,12 @@
+id = "zed-alloy"
+name = "Zed"
+version = "0.0.1"
+schema_version = 1
+authors = ["Luiz Fonseca <eu@luiz.cc>"]
+description = "Support for the Alloy configuration language in Zed"
+repository = "https://github.com/luizfonseca/zed-alloy"
+
+
+[grammars.alloy]
+repository = "https://github.com/fore-stun/tree-sitter-alloy"
+commit = "26d70b6745d10380b87a98a25cd7159c68a0f668"
